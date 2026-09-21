@@ -1,10 +1,9 @@
-
 ---
 title: "Wireshark ICMP Traffic Analysis"
 date: 2026-09-21 11:00:00 +0300
 categories: [Lab-Challenges]
 tags: [Wireshark, Networking, ICMP, TCP-IP, ARP, LAN, Packet-Analysis]
-description: "Capturing and analyzing local and remote ICMP traffic using Wireshark to understand MAC addressing, ARP, and network communication."
+description: "Capturing and analyzing local and remote ICMP traffic using Wireshark."
 ---
 
 # Wireshark ICMP Traffic Analysis
