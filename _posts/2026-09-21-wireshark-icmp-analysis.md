@@ -17,13 +17,13 @@ Two scenarios were investigated:
 1. Capturing ICMP communication between a workstation and its default gateway.
 2. Capturing ICMP communication between a workstation and remote internet hosts.
 
-The lab provided practical insight into how Ethernet frames, routing, ARP, and ICMP operate within modern networks. 【1-51ebf2】
+The lab provided practical insight into how Ethernet frames, routing, ARP, and ICMP operate within modern networks. 
 
 ---
 
 # Problem Statement
 
-Network administrators often need to troubleshoot connectivity issues and understand how traffic flows within a network. This lab aimed to examine how ICMP traffic behaves when communicating with both local and remote devices and determine how MAC addressing differs between the two scenarios. 【1-51ebf2】
+Network administrators often need to troubleshoot connectivity issues and understand how traffic flows within a network. This lab aimed to examine how ICMP traffic behaves when communicating with both local and remote devices and determine how MAC addressing differs between the two scenarios. 
 
 ---
 
@@ -34,7 +34,7 @@ Network administrators often need to troubleshoot connectivity issues and unders
 - Analyze communication with remote hosts.
 - Understand the relationship between MAC and IP addresses.
 - Examine the role of ARP in local communication.
-- Compare local and remote traffic behavior. 【1-51ebf2】
+- Compare local and remote traffic behavior. 
 
 ---
 
@@ -45,7 +45,7 @@ Network administrators often need to troubleshoot connectivity issues and unders
 - ICMP (Ping)
 - ARP
 - IPv4
-- Windows Operating System 【1-51ebf2】
+- Windows Operating System 
 
 ---
 
@@ -60,7 +60,7 @@ Network administrators often need to troubleshoot connectivity issues and unders
 | Default Gateway | 192.168.1.1 |
 | DNS Server | 192.168.1.1 |
 
-【1-51ebf2】
+
 
 ---
 
@@ -83,7 +83,7 @@ Default Gateway: 192.168.1.1
 DNS Server: 192.168.1.1
 ```
 
-【1-51ebf2】
+
 
 ### Screenshot
 
@@ -103,7 +103,7 @@ The following capture filter was applied:
 icmp
 ```
 
-This ensured that only ICMP traffic appeared in the capture window. 【1-51ebf2】
+This ensured that only ICMP traffic appeared in the capture window. 
 
 ### Screenshot
 
@@ -129,7 +129,7 @@ Result:
 0% packet loss
 ```
 
-【1-51ebf2】
+
 
 ### Screenshot
 
@@ -159,7 +159,7 @@ PC MAC Address:
 04-6c-59-d7-a0-dc
 ```
 
-The captured data showed that local devices communicate directly using their real MAC addresses. 【1-51ebf2】
+The captured data showed that local devices communicate directly using their real MAC addresses. 
 
 ---
 
@@ -176,17 +176,17 @@ This process was performed through ARP (Address Resolution Protocol).
 3. MAC address is stored in the ARP cache.
 4. ICMP packet is transmitted within an Ethernet frame.
 
-【1-51ebf2】
+
 
 ### Key Finding
 
-The MAC address of the destination device was learned dynamically using ARP before communication occurred. 【1-51ebf2】
+The MAC address of the destination device was learned dynamically using ARP before communication occurred. 
 
 ---
 
 # Part 2: Capture and Analyze Remote ICMP Data
 
-A second Wireshark capture session was started to analyze communication with remote internet hosts. 【1-51ebf2】
+A second Wireshark capture session was started to analyze communication with remote internet hosts. 
 
 ## Hosts Tested
 
@@ -196,7 +196,7 @@ www.cisco.com
 www.yahoo.com
 ```
 
-【1-51ebf2】
+
 
 ---
 
@@ -216,7 +216,7 @@ www.yahoo.com
 0c:61:f9:1a:1a:18
 ```
 
-【1-51ebf2】
+
 
 ---
 
@@ -234,7 +234,7 @@ www.yahoo.com
 0c:61:f9:1a:1a:18
 ```
 
-【1-51ebf2】
+
 
 ---
 
@@ -252,7 +252,7 @@ www.yahoo.com
 0c:61:f9:1a:1a:18
 ```
 
-【1-51ebf2】
+
 
 ---
 
@@ -268,7 +268,7 @@ The destination MAC address belonged to the default gateway rather than the remo
 0c:61:f9:1a:1a:18
 ```
 
-This demonstrates that MAC addresses only have significance within the local network segment. When traffic is destined for a remote network, the workstation forwards the frame to its default gateway, which then routes the packet toward its destination. 【1-51ebf2】
+This demonstrates that MAC addresses only have significance within the local network segment. When traffic is destined for a remote network, the workstation forwards the frame to its default gateway, which then routes the packet toward its destination. 
 
 ---
 
@@ -284,7 +284,7 @@ PC → Local Device
 - Ethernet frame is delivered directly.
 - Real destination MAC is visible.
 
-【1-51ebf2】
+
 
 ## Remote Host Communication
 
@@ -296,7 +296,7 @@ PC → Default Gateway → Internet
 - Ethernet frame is sent to the router.
 - Router forwards the packet through multiple hops.
 
-【1-51ebf2】
+
 
 ---
 
@@ -310,7 +310,7 @@ When communicating with devices on the same LAN, ARP can resolve and obtain the 
 
 For remote devices, the workstation only needs the MAC address of its default gateway. The gateway then removes the Ethernet frame and forwards the packet toward the next hop using a new Ethernet frame. This process is repeated by routers throughout the communication path.
 
-As a result, the actual MAC address of a remote web server is never visible to the originating workstation or Wireshark capture session. 【1-51ebf2】
+As a result, the actual MAC address of a remote web server is never visible to the originating workstation or Wireshark capture session. 
 
 ---
 
@@ -365,7 +365,7 @@ Replace the placeholders below with your screenshots.
 - Remote communication always relies on the default gateway.
 - Routers re-encapsulate frames at every hop.
 - MAC addresses and IP addresses serve different purposes in network communication.
-- Understanding packet flow is essential for troubleshooting and network administration. 【1-51ebf2】
+- Understanding packet flow is essential for troubleshooting and network administration. 
 
 ---
 
@@ -373,4 +373,4 @@ Replace the placeholders below with your screenshots.
 
 This lab successfully demonstrated how Wireshark can be used to analyze network traffic and visualize communication between devices. The exercise highlighted the relationship between IP addressing, MAC addressing, ICMP communication, and ARP resolution.
 
-The most important takeaway was understanding that local communication reveals the actual MAC address of destination devices, while communication with remote hosts only reveals the MAC address of the default gateway. This distinction is fundamental to understanding how Ethernet and routing operate in modern networks. 【1-51ebf2】
+The most important takeaway was understanding that local communication reveals the actual MAC address of destination devices, while communication with remote hosts only reveals the MAC address of the default gateway. This distinction is fundamental to understanding how Ethernet and routing operate in modern networks. 
