@@ -24,10 +24,10 @@ description: "My journey as a cybersecurity Enthusiast"
 url: "https://blair606.github.io/"
 
 github:
-  username: https://github.com/Blair606 # change to your GitHub username
+  username: Blair606 # change to your GitHub username
 
 twitter:
-  username: https://x.com/BobbyZiggler
+  username: BobbyZiggler
 
  # change to your Twitter username
 
@@ -43,8 +43,8 @@ social:
     - https://github.com/Blair606 # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
+    - https://www.linkedin.com/in/bildard-blair-302a4228b
+    
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
