@@ -24,26 +24,21 @@ description: "My journey as a cybersecurity Enthusiast"
 url: "https://blair606.github.io/"
 
 github:
-  username: https://github.com/Blair606 # change to your GitHub username
+  username: Blair606 # change to your GitHub username
 
 twitter:
-  username: https://x.com/BobbyZiggler
+  username: BobbyZiggler
 
  # change to your Twitter username
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Bildard Blair Odhiambo
-  email: bobbyziggler606@gmail.com # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
+  email: bobbyziggler606@gmail.com
+
   links:
-    # The first element serves as the copyright owner's link
-    - https://x.com/BobbyZiggler # change to your Twitter homepage
-    - https://github.com/Blair606 # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/Blair606
+    - https://www.linkedin.com/in/bildard-blair-302a4228b
+    - https://x.com/BobbyZiggler
 
 # Site Verification Settings
 webmaster_verifications:
@@ -99,8 +94,8 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
-
+avatar: /assets/img/profile.jpg
+``
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
 social_preview_image: # string, local or CORS resources
