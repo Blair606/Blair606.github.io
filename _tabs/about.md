@@ -6,11 +6,11 @@ order: 4
 
 # About Me
 
-Hi, I'm **Bildard Blair Odhiambo**, a Computer Science graduate and Demo Engineer at Syncfusion, passionate about software development, networking, cybersecurity, and technical problem-solving. 【1-14ef04】
+Hi, I'm **Bildard Blair Odhiambo**, a Computer Science graduate and Demo Engineer at Syncfusion, passionate about software development, networking, cybersecurity, and technical problem-solving. 
 
-I have hands-on experience in web development using **HTML, CSS, JavaScript, Node.js, and React**, as well as database technologies including **MySQL** and **MongoDB**. My interests also extend to network infrastructure, system administration, and cybersecurity. 【1-14ef04】
+I have hands-on experience in web development using **HTML, CSS, JavaScript, Node.js, and React**, as well as database technologies including **MySQL** and **MongoDB**. My interests also extend to network infrastructure, system administration, and cybersecurity. 
 
-Currently, I work with enterprise customers, delivering technical product demonstrations, providing support, and helping organizations get the most out of reporting and development solutions. 【1-14ef04】
+Currently, I work with enterprise customers, delivering technical product demonstrations, providing support, and helping organizations get the most out of reporting and development solutions. 
 
 ### Technical Skills
 
@@ -23,7 +23,7 @@ Currently, I work with enterprise customers, delivering technical product demons
 
 ### Certifications
 
-I hold multiple certifications from the Cisco Networking Academy, covering networking fundamentals, cybersecurity, IoT, and Cisco Packet Tracer. 【1-14ef04】
+I hold multiple certifications from the Cisco Networking Academy, covering networking fundamentals, cybersecurity, IoT, and Cisco Packet Tracer. 
 
 ### Connect With Me
 
