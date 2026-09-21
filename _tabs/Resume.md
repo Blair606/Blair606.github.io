@@ -2,32 +2,39 @@
 layout: page
 title: Resume
 icon: fas fa-file-alt
-order: 5
+order: 2
 ---
 
 # Resume
 
-## Professional Summary
+> 📄 **Download My CV:**  
+> <a href/files/Bildard_Blair_Odhiambo_CV.pdf
+> Download CV (PDF)
+> </a>
 
-Motivated Computer Science graduate with hands-on experience in cybersecurity, networking, technical support, and full-stack web development. Skilled in designing secure network infrastructures, troubleshooting IT systems, and building scalable web applications. Passionate about cybersecurity, backend development, network administration, and modern software engineering practices. Currently working as a Demo Engineer at Syncfusion, supporting enterprise customers through product demonstrations, implementation guidance, and technical support. 【1-7c20e5】
+---
+
+# Professional Summary
+
+Motivated Computer Science graduate with hands-on experience in cybersecurity, networking, technical support, and full-stack web development. Skilled in designing secure network infrastructures, troubleshooting IT systems, and building scalable web applications. Passionate about cybersecurity, software engineering, and network administration. Currently serving as a Demo Engineer at SF Software Services Kenya Limited (Syncfusion), supporting enterprise customers through product demonstrations, technical onboarding, and solution implementation. 【1-68105a】
 
 ---
 
 # Education
 
 ## Pwani University
+
 **Bachelor of Science in Computer Science**  
 2021 – 2025
 
-- Second Class (Lower Division)
-- Specialized in Computer Science and Information Technology-related disciplines. 【1-7c20e5】
+- Second Class (Lower Division) 【1-68105a】
 
-### Relevant Areas
+### Relevant Areas of Study
 
 - Networking
-- Database Systems
-- Software Engineering
 - Cybersecurity
+- Software Engineering
+- Database Systems
 - Operating Systems
 - Web Development
 
@@ -35,17 +42,15 @@ Motivated Computer Science graduate with hands-on experience in cybersecurity, n
 
 ## Agoro Sare High School
 
-**Kenya Certificate of Secondary Education (KCSE)**  
-2017 – 2020
-
-- Mean Grade: B+ 【1-7c20e5】
+**KCSE (Mean Grade B+)**  
+2017 – 2020 【1-68105a】
 
 ---
 
 ## MM Shah Primary School
 
-**Kenya Certificate of Primary Education (KCPE)**  
-2009 – 2016 【1-7c20e5】
+**KCPE**  
+2009 – 2016 【1-68105a】
 
 ---
 
@@ -55,26 +60,15 @@ Motivated Computer Science graduate with hands-on experience in cybersecurity, n
 
 ### SF Software Services Kenya Limited (Syncfusion)
 
-**July 2026 – Present**
+**July 2026 – Present** 【1-68105a】
 
 ### Responsibilities
 
-- Deliver live technical product demonstrations for Bold Reports and Syncfusion products.
-- Support enterprise clients during product evaluation and onboarding.
-- Assist customers with installation, integration, and customization requirements.
-- Troubleshoot technical issues and reproduce customer-reported bugs.
-- Collaborate with engineering teams to accelerate issue resolution.
-- Guide customers through report development and embedded reporting workflows.
-- Create technical demonstrations and training materials. 【1-7c20e5】
-
-### Key Skills
-
-- Technical Support
-- Customer Success
-- Product Demonstrations
-- Reporting Solutions
-- Troubleshooting
-- Business Communication
+- Deliver technical demonstrations of Bold Reports and Syncfusion products. 【1-68105a】
+- Support enterprise customers during product evaluations and onboarding. 【1-68105a】
+- Assist with installations, integrations, and customization requirements. 【1-68105a】
+- Troubleshoot customer issues and collaborate with engineering teams for resolution. 【1-68105a】
+- Guide customers through reporting workflows and implementation best practices. 【1-68105a】
 
 ---
 
@@ -82,25 +76,16 @@ Motivated Computer Science graduate with hands-on experience in cybersecurity, n
 
 ### Jaramogi Oginga Odinga Teaching & Referral Hospital (JOOTRH)
 
-**May 2024 – July 2024**
+**May 2024 – July 2024** 【1-68105a】
 
 ### Responsibilities
 
-- Installed and configured HMIS (FUNSOFT) and LIMS platforms.
-- Designed and implemented network infrastructure at Primecare Facility.
-- Configured routers, switches, Wi-Fi devices, and CCTV systems.
-- Installed and configured Windows operating systems.
-- Conducted hardware, software, and network troubleshooting.
-- Assisted with data migration and system deployment activities.
-- Supported user onboarding and technical assistance services. 【1-7c20e5】
-
-### Key Skills
-
-- Network Administration
-- Technical Support
-- Systems Administration
-- CCTV Configuration
-- Infrastructure Deployment
+- Installed and configured HMIS (FUNSOFT) and LIMS systems. 【1-68105a】
+- Designed and implemented network infrastructure for the Primecare facility. 【1-68105a】
+- Configured routers, switches, wireless networks, and CCTV systems. 【1-68105a】
+- Performed operating system installations and workstation setup. 【1-68105a】
+- Troubleshot hardware, software, and network-related issues. 【1-68105a】
+- Supported system deployment and user onboarding activities. 【1-68105a】
 
 ---
 
@@ -110,62 +95,50 @@ Motivated Computer Science graduate with hands-on experience in cybersecurity, n
 
 - Go (Golang)
 - Java
-- JavaScript 【1-7c20e5】
+- JavaScript 【1-68105a】
 
----
-
-## Web Development
+### Web Development
 
 - HTML5
 - CSS3
 - JavaScript
 - Node.js
-- React 【1-7c20e5】
+- React 【1-68105a】
 
----
-
-## Database Technologies
+### Databases
 
 - MySQL
 - MongoDB
-- SQL 【1-7c20e5】
+- SQL 【1-68105a】
 
----
-
-## Version Control & Dev Tools
+### Development Tools
 
 - Git
 - GitHub
-- Docker 【1-7c20e5】
+- Docker 【1-68105a】
 
----
-
-## Networking
+### Networking
 
 - Network Design
-- Routing and Switching
-- Wireless Networking
+- Routing & Switching
+- Wi-Fi Deployment
 - Network Troubleshooting
-- Infrastructure Deployment 【1-7c20e5】
+- Infrastructure Management 【1-68105a】
 
----
-
-## Cybersecurity
+### Cybersecurity
 
 - Vulnerability Assessment
 - Secure Network Architecture
 - System Hardening
-- Security Fundamentals 【1-7c20e5】
+- Security Fundamentals 【1-68105a】
 
----
-
-## Systems Administration
+### Systems Administration
 
 - Windows Administration
 - Linux Administration
 - OS Installation
 - User Management
-- Workstation Setup 【1-7c20e5】
+- Workstation Setup 【1-68105a】
 
 ---
 
@@ -173,19 +146,17 @@ Motivated Computer Science graduate with hands-on experience in cybersecurity, n
 
 ## Cisco Networking Academy
 
-- Networking Basics (March 2026)
-- Introduction to IoT and Digital Transformation (March 2026)
-- Exploring Networking with Cisco Packet Tracer (February 2026)
-- Exploring Internet of Things with Cisco Packet Tracer (February 2026)
-- Getting Started with Cisco Packet Tracer (February 2026)
-- Introduction to Cybersecurity (November 2025) 【1-7c20e5】
-
----
+- Networking Basics (March 2026) 【1-68105a】
+- Introduction to IoT and Digital Transformation (March 2026) 【1-68105a】
+- Exploring Networking with Cisco Packet Tracer (February 2026) 【1-68105a】
+- Exploring Internet of Things with Cisco Packet Tracer (February 2026) 【1-68105a】
+- Getting Started with Cisco Packet Tracer (February 2026) 【1-68105a】
+- Introduction to Cybersecurity (November 2025) 【1-68105a】
 
 ## Additional Certifications
 
-- Syncfusion Skill Up Kenya – Computer Basics & Essentials Program
-- Certificate of Merit in Computer Literacy – Agoro Sare High School (2020) 【1-7c20e5】
+- Syncfusion Skill Up Kenya – Computer Basics & Essentials Program 【1-68105a】
+- Certificate of Merit in Computer Literacy – Agoro Sare High School (2020) 【1-68105a】
 
 ---
 
@@ -193,20 +164,20 @@ Motivated Computer Science graduate with hands-on experience in cybersecurity, n
 
 ## Zone01 Kisumu – Piscine Bootcamp
 
-**3-Week Intensive Coding Program**
+**3-Week Intensive Software Development Training**
 
 ### Highlights
 
 - Programming fundamentals
 - Algorithms and problem solving
 - Low-level programming concepts
+- Peer-to-peer learning
 - Project-based development
-- Peer-to-peer collaboration
-- Debugging and software development practices 【1-7c20e5】
+- Debugging techniques 【1-68105a】
 
 ---
 
-# Projects
+# Featured Projects
 
 ## E-Learning System
 
@@ -215,20 +186,20 @@ A full-stack learning platform developed using:
 - Node.js
 - HTML
 - CSS
-- JavaScript
+- JavaScript 【1-68105a】
 
-### Features
+### Key Features
 
-- Interactive learning capabilities
+- Interactive learning environment
 - User-friendly interface
 - Scalable architecture
-- Database integration 【1-7c20e5】
+- Database-driven functionality
 
 ---
 
 ## Personal Portfolio Website
 
-A professional portfolio website built using:
+Developed using:
 
 - GitHub Pages
 - Jekyll
@@ -238,20 +209,20 @@ A professional portfolio website built using:
 
 - Showcase technical skills
 - Document projects
-- Present cybersecurity lab writeups
+- Publish lab challenge writeups
 - Build a professional online presence
 
 ---
 
 ## Network Infrastructure Deployment
 
-Designed and implemented network infrastructure solutions during internship activities, including:
+Implemented network solutions during internship projects, including:
 
 - Router configuration
-- Switch configuration
-- Wi-Fi deployment
-- CCTV installation
-- Network troubleshooting 【1-7c20e5】
+- Switch deployment
+- Wireless networking
+- CCTV integration
+- Network troubleshooting 【1-68105a】
 
 ---
 
@@ -259,12 +230,12 @@ Designed and implemented network infrastructure solutions during internship acti
 
 - Problem Solving
 - Analytical Thinking
-- Communication
 - Team Collaboration
-- Time Management
+- Communication
 - Adaptability
+- Time Management
 - Attention to Detail
-- Customer Service Orientation 【1-7c20e5】
+- Customer Service Orientation 【1-68105a】
 
 ---
 
@@ -272,22 +243,22 @@ Designed and implemented network infrastructure solutions during internship acti
 
 - Cybersecurity
 - Network Administration
-- Cloud Security
 - Software Development
+- Cloud Security
 - DevOps
 - Systems Engineering
-- Technical Consulting
 
 ---
 
 # Contact Information
 
-📧 Email: bobbyziggler606@gmail.com 【1-7c20e5】
+📧 bobbyziggler606@gmail.com 【1-68105a】
 
-💻 GitHub: https://github.com/Blair606 【1-7c20e5】
+💻 GitHub: https://github.com/Blair606 【1-68105a】
 
-🔗 LinkedIn: https://www.linkedin.com/in/bildard-blair-302a4228b 【1-7c20e5】
+🔗 LinkedIn: https://www.linkedin.com/in/bildard-blair-302a4228b 【1-68105a】
 
 ---
 
-> Downloadable CV and additional project documentation are available upon request.
+> For a detailed version of my qualifications, certifications, and professional experience, please download the PDF version of my CV using the link at the top of this page.
+``
