@@ -10,9 +10,9 @@ description: "A practical analysis of an HTTP session using Cisco Packet Tracer 
 
 ## Introduction
 
-This lab activity involved using Cisco Packet Tracer to capture and analyze a live HTTP session between a client workstation and a web server on a local area network (LAN). The exercise provided a practical understanding of how the OSI Reference Model and the TCP/IP protocol suite work together to facilitate communication across a network. Additionally, supporting protocols such as DNS and ARP were examined to understand how they contribute to successful web communication. 【1-79d881】
+This lab activity involved using Cisco Packet Tracer to capture and analyze a live HTTP session between a client workstation and a web server on a local area network (LAN). The exercise provided a practical understanding of how the OSI Reference Model and the TCP/IP protocol suite work together to facilitate communication across a network. Additionally, supporting protocols such as DNS and ARP were examined to understand how they contribute to successful web communication. 
 
-The primary objective was to observe the encapsulation and de-encapsulation process as data moves through the Application, Transport, Network, and Data Link layers during an HTTP request and response cycle. 【1-79d881】
+The primary objective was to observe the encapsulation and de-encapsulation process as data moves through the Application, Transport, Network, and Data Link layers during an HTTP request and response cycle. 
 
 ---
 
@@ -22,7 +22,7 @@ The primary objective was to observe the encapsulation and de-encapsulation proc
 - Observe network communication using Cisco Packet Tracer Simulation Mode.
 - Examine how HTTP, TCP, IP, ARP, and DNS protocols operate.
 - Analyze packet encapsulation and de-encapsulation.
-- Understand how network devices exchange information during a web session. 【1-79d881】
+- Understand how network devices exchange information during a web session. 
 
 ---
 
@@ -35,13 +35,13 @@ The primary objective was to observe the encapsulation and de-encapsulation proc
 - ARP Protocol
 - DNS Protocol
 - Web Client
-- Web Server 【1-79d881】
+- Web Server 
 
 ---
 
 ## Problem Statement
 
-The challenge was to investigate how a client accesses a web server by generating an HTTP request and examining every stage of the communication process. The activity required identifying the protocols involved, understanding the information exchanged at each layer, and analyzing how data travels from source to destination. 【1-79d881】
+The challenge was to investigate how a client accesses a web server by generating an HTTP request and examining every stage of the communication process. The activity required identifying the protocols involved, understanding the information exchanged at each layer, and analyzing how data travels from source to destination. 
 
 ---
 
@@ -49,7 +49,7 @@ The challenge was to investigate how a client accesses a web server by generatin
 
 ### Step 1: Switching to Simulation Mode
 
-The Packet Tracer environment was switched from Realtime Mode to Simulation Mode to enable packet-level analysis. Event filters were configured to capture HTTP traffic and observe protocol interactions step by step. 【1-79d881】
+The Packet Tracer environment was switched from Realtime Mode to Simulation Mode to enable packet-level analysis. Event filters were configured to capture HTTP traffic and observe protocol interactions step by step. 
 
 ### Step 2: Generating HTTP Traffic
 
@@ -59,7 +59,7 @@ The Web Client initiated a connection by navigating to:
 www.osi.local
 ```
 
-The Capture/Forward function was then used to examine the movement of packets between devices. Successful communication resulted in the Web Client displaying the Web Server homepage. 【1-79d881】
+The Capture/Forward function was then used to examine the movement of packets between devices. Successful communication resulted in the Web Client displaying the Web Server homepage. 
 
 ### Step 3: Examining Packet Details
 
@@ -70,7 +70,7 @@ The OSI Model and PDU Details windows were used to analyze:
 - TCP port assignments
 - HTTP request and response behavior
 - DNS name resolution
-- MAC address identification via ARP 【1-79d881】
+- MAC address identification via ARP 
 
 ---
 
@@ -82,7 +82,7 @@ The Application Layer generated an HTTP request from the client to the server.
 
 The request was successfully processed and a response was returned containing the web page hosted on the server. The browser displayed:
 
-> You have successfully accessed the home page for Web Server. 【1-79d881】
+> You have successfully accessed the home page for Web Server. 
 
 #### HTTP Port
 
@@ -90,7 +90,7 @@ The request was successfully processed and a response was returned containing th
 80
 ```
 
-Port 80 was identified as the destination port responsible for accepting the web request on the server. 【1-79d881】
+Port 80 was identified as the destination port responsible for accepting the web request on the server. 
 
 ---
 
@@ -105,13 +105,13 @@ Source Port: 1030
 Destination Port: 80
 ```
 
-The protocol established a connection, maintained reliable transmission, and eventually terminated the session after communication was complete. 【1-79d881】
+The protocol established a connection, maintained reliable transmission, and eventually terminated the session after communication was complete. 
 
 Key observations:
 
 - TCP connection established successfully.
 - Connection state changed to ESTABLISHED.
-- Connection was later reset and closed. 【1-79d881】
+- Connection was later reset and closed. 
 
 ---
 
@@ -131,7 +131,7 @@ The Network Layer handled logical addressing.
 192.168.1.254
 ```
 
-These addresses enabled communication between devices across the network. 【1-79d881】
+These addresses enabled communication between devices across the network. 
 
 ---
 
@@ -139,7 +139,7 @@ These addresses enabled communication between devices across the network. 【1-7
 
 Before communication could occur, ARP was used to determine the destination MAC address associated with the server's IP address.
 
-ARP bridged Layer 3 addressing and Layer 2 communication by mapping IP addresses to physical hardware addresses. 【1-79d881】
+ARP bridged Layer 3 addressing and Layer 2 communication by mapping IP addresses to physical hardware addresses. 
 
 ---
 
@@ -157,7 +157,7 @@ into its corresponding IP address:
 192.168.1.254
 ```
 
-This translation occurred before the HTTP request was sent. 【1-79d881】
+This translation occurred before the HTTP request was sent. 
 
 #### DNS Port
 
@@ -165,7 +165,7 @@ This translation occurred before the HTTP request was sent. 【1-79d881】
 53
 ```
 
-Port 53 was used to process DNS requests and responses. 【1-79d881】
+Port 53 was used to process DNS requests and responses. 
 
 ---
 
@@ -173,7 +173,7 @@ Port 53 was used to process DNS requests and responses. 【1-79d881】
 
 ### Layer 7 – Application
 
-Responsible for generating the HTTP request and interacting with DNS services. The packet details indicated that the HTTP client initiated communication by sending an HTTP request to the server. 【1-79d881】
+Responsible for generating the HTTP request and interacting with DNS services. The packet details indicated that the HTTP client initiated communication by sending an HTTP request to the server. 
 
 ### Layer 4 – Transport
 
@@ -186,7 +186,7 @@ Src Port: 1030
 Dst Port: 80
 ```
 
-【1-79d881】
+
 
 ### Layer 3 – Network
 
@@ -197,7 +197,7 @@ Source IP: 192.168.1.1
 Destination IP: 192.168.1.254
 ```
 
-【1-79d881】
+
 
 ### Layer 2 – Data Link
 
@@ -210,25 +210,25 @@ Source MAC → Destination MAC
 0060.47CA.4DEE → 0001.96A9.401D
 ```
 
-【1-79d881】
+
 
 ### Layer 1 – Physical
 
-Responsible for transmitting bits across the network media. Packet Tracer displayed Layer 1 activity when frames were physically transmitted between devices. 【1-79d881】
+Responsible for transmitting bits across the network media. Packet Tracer displayed Layer 1 activity when frames were physically transmitted between devices. 
 
 ---
 
 ## Key Findings
 
-1. DNS resolved the hostname before communication could begin. 【1-79d881】
+1. DNS resolved the hostname before communication could begin. 
 
-2. ARP resolved the destination MAC address required for local delivery. 【1-79d881】
+2. ARP resolved the destination MAC address required for local delivery. 
 
-3. TCP established a reliable communication channel before data exchange occurred. 【1-79d881】
+3. TCP established a reliable communication channel before data exchange occurred. 
 
-4. HTTP successfully delivered web content from the server to the client. 【1-79d881】
+4. HTTP successfully delivered web content from the server to the client. 
 
-5. Packet Tracer provided clear visibility into packet encapsulation and de-encapsulation across OSI layers. 【1-79d881】
+5. Packet Tracer provided clear visibility into packet encapsulation and de-encapsulation across OSI layers. 
 
 ---
 
@@ -272,7 +272,7 @@ This exercise reinforced several important networking concepts:
 - TCP ensures reliable and ordered data delivery.
 - HTTP relies on lower-layer protocols to successfully exchange information.
 - Encapsulation and de-encapsulation are essential processes in network communication.
-- Packet Tracer is an effective learning platform for visualizing protocol operations and network behavior. 【1-79d881】
+- Packet Tracer is an effective learning platform for visualizing protocol operations and network behavior. 
 
 ---
 
@@ -280,4 +280,4 @@ This exercise reinforced several important networking concepts:
 
 The lab successfully demonstrated how multiple networking protocols work together to facilitate communication between devices. Through the analysis of DNS queries, ARP requests, TCP connections, and HTTP traffic, it became evident that network communication is a coordinated process involving several layers of the OSI and TCP/IP models.
 
-Observing packet flow in Cisco Packet Tracer transformed theoretical networking concepts into practical understanding and strengthened troubleshooting and protocol analysis skills. 【1-79d881】
+Observing packet flow in Cisco Packet Tracer transformed theoretical networking concepts into practical understanding and strengthened troubleshooting and protocol analysis skills. 
