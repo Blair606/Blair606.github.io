@@ -16,8 +16,6 @@ Currently, I work with enterprise customers, delivering technical product demons
 ---
 ![Banner](/assets/img/banner.png)
 
-![Profile Photo](/assets/img/profile.png) 
-
 ## Professional Interests
 
 - Cybersecurity
