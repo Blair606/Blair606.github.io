@@ -3,10 +3,7 @@ title: About
 icon: fas fa-info-circle
 order: 4
 ---
-![Banner](/assets/img/banner.png)
 
-
-![Profile Photo](/assets/img/profile.png)
 
 # About Me
 
@@ -17,6 +14,9 @@ I have hands-on experience in full-stack web development using **HTML, CSS, Java
 Currently, I work with enterprise customers, delivering technical product demonstrations, providing implementation support, troubleshooting complex issues, and helping organizations maximize the value of reporting and development solutions.
 
 ---
+![Banner](/assets/img/banner.png)
+
+![Profile Photo](/assets/img/profile.png) 
 
 ## Professional Interests
 
