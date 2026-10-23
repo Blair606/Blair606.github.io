@@ -415,28 +415,15 @@ Successful security testing requires understanding:
 before attempting exploitation.
 
 ---
+# Evidence of Completion
 
-# Screenshots
+The completion badge for this HTB Academy module can be verified using the following achievement link:
 
-Add your completion screenshots here:
+🔗 https://academy.hackthebox.com/achievement/2870830/75
 
-## Module Completion
+The achievement confirms successful completion of the **Introduction to Web Applications** module, including all module sections and knowledge checks.
 
-```text
-/assets/img/labs/htb-webapps-completion.png
-```
 
-## HTB Academy Dashboard
-
-```text
-/assets/img/labs/htb-dashboard.png
-```
-
-## Module Progress
-
-```text
-/assets/img/labs/htb-webapps-progress.png
-```
 
 ---
 
