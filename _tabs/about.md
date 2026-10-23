@@ -3,7 +3,7 @@ title: About
 icon: fas fa-info-circle
 order: 4
 ---
-![Profile Photo](/assets/img/profile.png)
+![Banner](/assets/img/banner.png)
 
 
 ![Profile Photo](/assets/img/profile.png)
